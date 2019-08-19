@@ -1,0 +1,180 @@
+[
+  {
+    "id": "261184b8-84f9-4de7-9173-f88f074d2274",
+    "manufacturerId": "a31c67dc-afbe-4a89-b399-9806b0fc154e",
+    "productTitle": "koko",
+    "img": "/images/picture-6.jpg",
+    "imgAlt": "image",
+    "price": "53",
+    "categories": "[5,3]",
+    "rating": "3.3",
+    "age": "35",
+    "brand": "puma",
+    "skinType": "mixed"
+  },
+  {
+    "id": "3bde51bc-7a86-4a8e-9649-6c2c07560fe3",
+    "manufacturerId": "4",
+    "productTitle": "Pure Echo Snail Moisture Gel",
+    "img": "/images/picture-6.jpg",
+    "imgAlt": "picture 6",
+    "price": 43,
+    "categories": [
+      "daa8d776-8b3d-4bf2-b4b0-48cd21a81489",
+      "14531f52-8cf7-4978-b1b1-6db463944ccd"
+    ],
+    "rating": 5,
+    "age": 30,
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "ddf21c3e-8c04-42e8-b762-79ea99ba88a1",
+    "manufacturerId": "5",
+    "productTitle": "Snail skin cream",
+    "img": "/images/picture-5.jpg",
+    "imgAlt": "picture 5",
+    "price": 99,
+    "categories": ["ddf21c3e-8c04-42e8-b762-79ea99ba88a1"],
+    "rating": 4.5,
+    "age": 25,
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "1be91184-f38d-41bc-b47c-910fb0ce1f5a",
+    "manufacturerId": "6",
+    "productTitle": "Cosrx Advanced Snail 92 All in OneCream",
+    "img": "/images/picture-1.jpg",
+    "imgAlt": "picture 1",
+    "price": 99,
+    "categories": [
+      "4bd50145-3335-4242-a478-640ba84005ef",
+      "ddf21c3e-8c04-42e8-b762-79ea99ba88a1"
+    ],
+    "rating": 4.5,
+    "age": 25,
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "55de8eda-c080-420c-9fea-4b13049b66cc",
+    "manufacturerId": "7",
+    "productTitle": "Innisfree Canola Honey Mask",
+    "img": "/images/picture-4.jpg",
+    "imgAlt": "picture 4",
+    "price": 99,
+    "categories": ["5914d1ed-b8e2-4f5e-81f6-172c49f95b16"],
+    "rating": 4.5,
+    "age": 25,
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "78e6542a-0329-4c3f-9dac-9656434dbc97",
+    "manufacturerId": "8",
+    "productTitle": "Scinic HoneyBanana Cleansing Foam",
+    "img": "/images/picture-4.jpg",
+    "imgAlt": "picture 4",
+    "price": 99,
+    "categories": ["5914d1ed-b8e2-4f5e-81f6-172c49f95b16"],
+    "rating": 4.5,
+    "age": 25,
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "c83dc71f-9025-431c-a3a9-2ee84dfdf35b",
+    "manufacturerId": "9",
+    "productTitle": "Scinic HoneyBanana Cleansing Foam",
+    "img": "/images/picture-4.jpg",
+    "imgAlt": "picture 4",
+    "price": 99,
+    "categories": ["5914d1ed-b8e2-4f5e-81f6-172c49f95b16"],
+    "rating": 4.5,
+    "age": 25,
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "31df80ab-fcf1-468e-ad1a-624402f2ed74",
+    "manufacturerId": "10",
+    "productTitle": "Scinic HoneyBanana Cleansing Foam",
+    "img": "/images/picture-4.jpg",
+    "imgAlt": "picture 4",
+    "price": 99,
+    "categories": [
+      "5914d1ed-b8e2-4f5e-81f6-172c49f95b16",
+      "4bd50145-3335-4242-a478-640ba84005ef"
+    ],
+    "rating": 4.5,
+    "age": 25,
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "c931f974-3774-44d3-a436-f12f8ce50861",
+    "manufacturerId": "0d816c98-791e-4054-8ebf-2fb180745685",
+    "productTitle": "it's so hot",
+    "img": "/images/picture-6.jpg",
+    "imgAlt": "image alt",
+    "price": "23",
+    "categories": "[5]",
+    "rating": "2.5",
+    "age": "25",
+    "brand": "nike",
+    "skinType": "oily"
+  },
+  {
+    "id": "19e18851-914c-4968-8d84-5f611d61c9fc",
+    "manufacturerId": "aba5f552-b228-4038-af37-604720907180",
+    "productTitle": "it's",
+    "img": "/images/picture-6.jpg",
+    "imgAlt": "image",
+    "price": "53",
+    "categories": "[5,3]",
+    "rating": "3.3",
+    "age": "35",
+    "brand": "puma",
+    "skinType": "mixed"
+  },
+  {
+    "id": "41097aa8-3876-4695-bbc2-01afb9333a30",
+    "manufacturerId": "a3e091b7-402b-4eaf-90c0-5e9e3b4fc383",
+    "productTitle": "cucu bau, ce e edited!",
+    "img": "/images/picture-6.jpg",
+    "imgAlt": "image",
+    "price": "23",
+    "categories": "[5,3]",
+    "rating": "3.3",
+    "age": "35",
+    "brand": "puma",
+    "skinType": "mixed"
+  },
+  {
+    "id": "0900a0a7-921b-4b4a-8750-7ea2f8c1a1b7",
+    "manufacturerId": "755be6a9-6b6f-4f73-ab62-cc57abe16d69",
+    "productTitle": "fac un nou produs",
+    "img": "/images/picture-6.jpg",
+    "imgAlt": "image",
+    "price": "23",
+    "categories": "[5,3]",
+    "rating": "3.3",
+    "age": "35",
+    "brand": "puma",
+    "skinType": "mixed"
+  },
+  {
+    "id": "e3ba5659-fed9-45e8-83ee-7c86101c7eec",
+    "manufacturerId": "1e0966dc-eb33-414a-b98b-f428976ef13d",
+    "productTitle": "fac un nou prodasddus",
+    "img": "/images/picture-6.jpg",
+    "imgAlt": "image",
+    "price": "23",
+    "categories": "[5,3]",
+    "rating": "3.3",
+    "age": "35",
+    "brand": "puma",
+    "skinType": "mixed"
+  }
+]

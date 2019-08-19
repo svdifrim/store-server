@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "id": "14531f52-8cf7-4978-b1b1-6db463944ccd",
+      "name": "FACE",
+      "children": [
+        { "value": "Creams & gels", "id": "1" },
+        { "value": "Patches", "id": "2" },
+        { "value": "Emulsions", "id": "3" },
+        { "value": "Toners", "id": "4" },
+        { "value": "Face cleansing", "id": "5" },
+        { "value": "Make up removal", "id": "6" },
+        { "value": "Scrubs", "id": "7" },
+        { "value": "Peeling", "id": "8" },
+        { "value": "Masks", "id": "9" }
+      ]
+    },
+
+    {
+      "id": "e96fc4b2-df0f-4907-8cc0-84b987733ee8",
+      "name": "BODY",
+      "children": [
+        { "value": "Make up removal", "id": "6" },
+        { "value": "Scrubs", "id": "7" },
+        { "value": "Peeling", "id": "8" },
+        { "value": "Masks", "id": "9" }
+      ]
+    },
+    {
+      "id": "b7abac14-adbe-4fed-9662-36abbd8da901",
+      "name": "FOOT",
+      "children": [
+        { "value": "Toners", "id": "4" },
+        { "value": "Face cleansing", "id": "5" },
+        { "value": "Make up removal", "id": "6" }
+      ]
+    },
+    {
+      "id": "daa8d776-8b3d-4bf2-b4b0-48cd21a81489",
+      "name": "HANDS",
+      "children": [
+        { "value": "Emulsions", "id": "3" },
+        { "value": "Toners", "id": "4" },
+        { "value": "Face cleansing", "id": "5" },
+        { "value": "Make up removal", "id": "6" },
+        { "value": "Scrubs", "id": "7" },
+        { "value": "Peeling", "id": "8" }
+      ]
+    },
+    {
+      "id": "5914d1ed-b8e2-4f5e-81f6-172c49f95b16",
+      "name": "HAIR",
+      "children": [
+        { "value": "Peeling", "id": "8" },
+        { "value": "Masks", "id": "9" }
+      ]
+    },
+    {
+      "id": "4bd50145-3335-4242-a478-640ba84005ef",
+      "name": "MAKEUP",
+      "children": [
+        { "value": "Toners", "id": "4" },
+        { "value": "Face cleansing", "id": "5" },
+        { "value": "Make up removal", "id": "6" }
+      ]
+    }
+  ]
+}
