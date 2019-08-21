@@ -4,7 +4,6 @@ const {
   getProducts,
   getProduct,
   createProduct,
-  addProductToCart,
   deleteProduct,
   editProduct
 } = require("../controllers/products");
@@ -15,7 +14,6 @@ const { validatePathParams } = require("../middlewares/lib");
 //products
 router.get("/products", getProducts);
 router.get("/products/:id", getProduct);
-router.post("/products/:id", addProductToCart);
 router.post("/products", createProduct);
 router.delete("/products/:id", deleteProduct);
 router.put("/products/:id", editProduct);

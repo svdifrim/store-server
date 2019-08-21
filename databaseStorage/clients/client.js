@@ -1,25 +1,21 @@
 class IClient {
-  read(params) {
+  find(params) {
     throw new Error("Method read not implemented");
   }
 
-  readById(id) {
+  findById(id) {
     throw new Error("Method readById not implemented");
   }
 
-  create(product) {
+  create(item) {
     throw new Error("Method create not implemented");
   }
 
-  delete(id) {
+  remove(id) {
     throw new Error("Method delete not implemented");
   }
 
-  edit(id) {
-    throw new Error("Method params not implemented");
-  }
-
-  addToCart(id) {
+  update(id, item) {
     throw new Error("Method params not implemented");
   }
 }

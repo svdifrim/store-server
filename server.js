@@ -10,6 +10,7 @@ require("dotenv").config();
 //Folders & files
 const productsRouter = require("./routes/products.js");
 const categoriesRouter = require("./routes/categories.js");
+const cartRouter = require("./routes/cart.js");
 
 //init app
 const app = express();
@@ -30,6 +31,7 @@ module.exports = app;
 //Use routes
 app.use("/", productsRouter);
 app.use("/", categoriesRouter);
+app.use("/", cartRouter);
 
 const server = https.createServer(
   {

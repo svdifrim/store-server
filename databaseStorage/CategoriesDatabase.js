@@ -1,17 +1,3 @@
-module.exports = class ProductsDatabase {
-  constructor(client) {
-    this.client = client;
-  }
+const DAO = require("./DAO");
 
-  async readCategories(params) {
-    return await this.client.read(params);
-  }
-
-  async getCategory(id) {
-    return await this.client.readById(id);
-  }
-
-  async createCategory(category) {
-    return await this.client.create(category);
-  }
-};
+module.exports = class CategoriesDatabase extends DAO {};

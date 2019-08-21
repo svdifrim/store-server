@@ -1,12 +1,5 @@
-const ProductsClient = require("../databaseStorage/clients/ProductsClient");
-const ProductsDatabase = require("../databaseStorage/ProductsDatabase");
-const path = require("path");
-
-const productsClient = new ProductsClient(
-  path.resolve(__dirname, "../data/products.json")
-);
-
-const dao = new ProductsDatabase(productsClient);
+const { productsDao } = require("../databaseStorage/daos");
+const dao = productsDao;
 
 exports.getProducts = async (req, res) => {
   const params = {
@@ -23,40 +16,34 @@ exports.getProducts = async (req, res) => {
     skinType: ""
   };
 
-  const products = await dao.readProducts(params);
+  const products = await dao.find();
 
   res.status(200).json(products);
 };
 
 exports.getProduct = async (req, res) => {
   const { id } = req.params;
-  const product = await dao.getProduct(id);
+  const product = await dao.findById(id);
   res.status(200).json(product);
 };
 
 exports.createProduct = async (req, res) => {
   const { body } = req;
-  const product = await dao.createProduct(body);
+  const product = await dao.add(body);
 
   res.status(201).json(product);
 };
 
-exports.addProductToCart = async (req, res) => {
-  const { id } = req.params;
-  const product = await dao.addProductToCart(id);
-  res.status(200).json(product);
-};
-
 exports.deleteProduct = async (req, res) => {
   const { id } = req.params;
-  await dao.deleteProduct(id);
+  await dao.remove(id);
   res.status(204).end();
 };
 
 exports.editProduct = async (req, res) => {
   const { body } = req;
   const { id } = req.params;
-  const product = await dao.editProduct(id, body);
+  const product = await dao.update(id, body);
 
   res.status(200).json(product);
 };
